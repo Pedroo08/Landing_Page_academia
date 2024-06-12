@@ -53,7 +53,7 @@ nav > ul> li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(/imgs/hero.jpg);
+    background: url(./imgs/hero.jpg);
     background-size: cover;
     background-position-y: center;
     min-height: 500px;
@@ -160,19 +160,19 @@ nav > ul> li{
 }
 
 #tour{
-    background: url(/imgs/tour.jpg);
+    background: url(./imgs/tour.jpg);
     background-size: cover;
     background-position-y: center;
 }
 
 #aulas{
-    background: url(/imgs/aulas-em-grupo.jpg);
+    background: url(./imgs/aulas-em-grupo.jpg);
     background-size: cover;
     background-position-y: center;
 }
 
 #personal{
-    background: url(/imgs/personal.jpg);
+    background: url(./imgs/personal.jpg);
     background-size: cover;
     background-position-y: center;
 }
