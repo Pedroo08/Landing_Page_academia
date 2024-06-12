@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+
+
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+
+    padding: 1rem;
+    background-color: rgb(0, 0, 0);
+   
+   
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav > ul> li{
+    margin: 0.5rem;
+    
+  
+}
+
+.btn-menu {
+    background: none;
+    border: none;
+    color: #fff;
+    
+}
+.btn-menu:hover{
+    
+    color: rgb(52, 80, 192);
+    cursor: pointer;
+    
+}
+.hero{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/imgs/hero.jpg);
+    background-size: cover;
+    background-position-y: center;
+    min-height: 500px;
+    color: #fff;
+
+}
+
+.hero button{
+    height: 3rem;
+    width: 8rem;
+    margin: 1rem;
+    border: none;
+    background-color: rgb(52, 80, 192);
+    color: #fff;
+    
+
+}
+
+.hero> button:hover{
+    background-color: #fff;
+    color: rgb(10, 48, 126);
+    cursor: pointer;
+
+}
+
+
+
+
+.sobre{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.sobre-texto{
+    margin: 1rem;
+    font-size: 20px;
+    max-width: 400px;
+    color: #fff;
+}
+
+.sobre-texto > h2{
+    font-size: 51px;
+    margin-bottom: 0.5rem;
+    color: rgb(52, 80, 192);
+}
+
+.sobre-imagens{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.sobre-imagens > img{
+    width: 320px;
+    height: 425px;
+    margin: 0.5rem;
+}
+
+
+
+.servicos{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: black;
+    color:#fff
+    
+    
+    
+}
+
+.servicos-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.servicos-itens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.servicos-itens>div{
+    display: flex;
+    width: 23rem;
+    height: 15rem;
+    
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    filter: sepia(25%);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+    
+   
+}
+
+#tour{
+    background: url(/imgs/tour.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+#aulas{
+    background: url(/imgs/aulas-em-grupo.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+#personal{
+    background: url(/imgs/personal.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+
+
+
+
+.depoimentos{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: black;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.depoimentos-itens{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-between;
+    gap:3rem;
+}
+
+.depoimento-card{
+    width: 20rem;
+    margin: 1rem;
+    
+}
+
+.depoimentos-itens > div > img{
+    width: 20rem;
+    height: 13rem;
+    object-fit: cover;
+    object-position:top;
+}
+
+.depoimento-texto{
+    background-color:rgb(52, 80, 192) ;
+    color:#fff;
+    margin-top: -1rem;
+    padding: 1rem;
+}
+
+footer{
+    display: flex;
+    color: #fff;
+    background-color: rgb(52, 80, 192);
+    min-height: 5rem;
+    justify-content:space-around;
+    align-items: center;
+}
