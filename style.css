@@ -334,7 +334,6 @@ footer{
     .menu-mobile {
         position: fixed;
         width: 100%;
-        
         display: flex;
         background-color: black;
         padding: 1rem;
@@ -367,7 +366,7 @@ footer{
     }
 
 
-    .menu-list>li>a{
+    .btn-menu{
         font-size: 20px;
     }
 
